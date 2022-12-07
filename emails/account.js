@@ -39,9 +39,9 @@ const sendWelcomeEmail = (email, name) => {
 
     transport.sendMail(mailOptions, function (err, info) {
         if (err) {
-            console.log(err)
+            //  console.log(err)
         } else {
-            console.log('email sent')
+            //wconsole.log('email sent')
             //console.log(info);
         }
     })
@@ -58,9 +58,9 @@ const sendCancelationEmail = (email, name) => {
 
     transport.sendMail(mailOptions, function (err, info) {
         if (err) {
-            console.log(err)
+            //console.log(err)
         } else {
-            console.log(info);
+            //console.log(info);
         }
     })
 }
